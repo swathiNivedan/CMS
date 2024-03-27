@@ -1,0 +1,130 @@
+/* home.css */
+
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header form styles */
+.header__form {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.header__form form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.header__form h4 {
+    margin-bottom: 15px;
+}
+
+.header__form input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.header__form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Service container styles */
+.service__container {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service__header__content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.service__btn {
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.service__btn:hover {
+    background-color: #0056b3;
+}
+
+/* Doctors container styles */
+.doctors__container {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.doctors__card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.doctors__card:hover {
+    transform: translateY(-5px);
+}
+
+.doctors__card__image img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.doctors__card__content {
+    padding: 20px;
+}
+
+.doctors__card h4 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.doctors__card p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.doctors__socials span {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+.doctors__socials span:hover {
+    color: #0056b3;
+}
